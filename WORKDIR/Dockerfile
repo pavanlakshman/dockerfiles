@@ -1,5 +1,5 @@
 FROM almalinux:9
-RUN mkdir add
+RUN mkdir /add
 #setup the pwd
-WORKDIR add
+WORKDIR /add
 CMD [ "sleep", "100" ]
